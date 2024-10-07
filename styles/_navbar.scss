@@ -1,0 +1,37 @@
+.navbar-container {
+    background-color: #5474FD;
+    position: sticky;
+    top: 1rem;
+}
+
+.navbar {
+    margin: auto;
+    width: 80%;
+    height: 83px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-btn {
+    margin-right: auto;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.nav-btn {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 2vw;
+}
+
+.nav-btn:hover {
+    transform: scale(1.2);
+}
+
+.navbar .nav-btn:last-child {
+    padding-right: 0px;
+}
