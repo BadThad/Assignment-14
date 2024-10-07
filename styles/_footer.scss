@@ -1,0 +1,57 @@
+.footer-section {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+
+.footer-text {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+
+.footer-text .subtitle {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+}
+
+.brand-white {
+    color: #E8E8E8;
+}
+
+.brand-blue {
+   color: #5474FD; 
+}
+
+.social-media {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social-media ul {
+    padding: 0%;
+}
+
+.social-media ul li {
+    font-size: 16px;
+    list-style: none;
+    display: inline;
+    padding-right: 1%;
+}
+
+.social-media ul li:last-child {
+    padding: 0%;
+}
+
+.social-media ul li a i:hover {
+    transform: scale(1.3);
+}

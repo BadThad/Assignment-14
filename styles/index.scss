@@ -1,0 +1,25 @@
+@use 'fonts';
+
+body {
+    max-width: 1440px;
+    width: 100%
+}
+
+@import 'header';
+@import 'navbar';
+@import 'firstsection';
+@import 'secondsection';
+@import 'testimonial';
+@import 'footer';
+
+.jsans-font {
+    font-family: fonts.$jsans-font;
+}
+
+.aleo-font {
+    font-family: fonts.$aleo-font
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

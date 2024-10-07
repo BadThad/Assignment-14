@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@100..900&family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@100..900&family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles/index.css">
     <title>BHROMAON</title>
 </head>
 <body>
+
     <!-- HEADER SECTION -->
     <header class="header-section">
-        <!-- <div class="header-background">
-            <img src="images/header-background.png" alt="header-background">
-        </div> -->
         <div class="title-subtitle-container">
             <div class="title-container">
                 <h1 class="title uppercase jsans-font">Bhromaon</h1>
@@ -24,7 +24,10 @@
             </div>
         </div>
         <div class="searchbar">
-
+            <input type="text" name="Searchbar" id="searchbar" placeholder="Search Your Travel Destination">
+            <div>
+                <button class="search-btn">Search<span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+            </div>
         </div>
         <div class="scroll-down_container">
             <p class="scroll-down">Scroll Down</p>
@@ -43,85 +46,78 @@
             <a href="#" class="nav-btn uppercase">Contact Us</a>
         </nav>
     </div>
-    
+
 
     <!-- FIRST SECTION -->
     <div class="section-1">
-        <!-- <div class="section-1_background">
-            <img src="images/firstsection-background.png" alt="renaissance-palace">
-        </div> -->
-        <div class="section-1_text-container">
-            <div class="section-1_heading">
-                <h2 class="heading aleo-font">Why Choose Us</h2>
+        <div class="section-1-content">
+            <div class="section-1_text-container">
+                <div class="section-1_heading">
+                    <h2 class="heading aleo-font">Why Choose Us</h2>
+                </div>
+                <div class="section-1-text">
+                    <p class="section-1-uppertext jsans-font">Tion and dislike men who are so beguiled and demoralized by 
+                        desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
+                    <p class="section-1-lowertext jsans-font">Ddislike men who are so beguiled and demoralized by the charms of 
+                        pleasure of the moment, so blinded by desire, that.</p>
+                </div>
+                <div>
+                    <a href="#" class="blue-btn aleo-font">Explore Places</a>
+                </div>
             </div>
-            <div class="section-1-text">
-                <p class="section-1-uppertext">Tion and dislike men who are so beguiled and demoralized by 
-                    desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
-                <p class="section-1-lowertext">Ddislike men who are so beguiled and demoralized by the charms of 
-                    pleasure of the moment, so blinded by desire, that.</p>
+            <div class="section-1_img-container">
+                <div class="top-image-container"><img src="images/firstsection-topimage.png" alt="cabin-by-the-lake"></div>
+                <div class="bottom-image-container"><img src="images/firstsection-bottomimage.png" alt="mountain-valley"></div>
             </div>
-            <div>
-                <a href="#" class="blue-btn">Explore Places</a>
-            </div>
-        </div>
-        <div class="section-1_img-container">
-            <div><img src="images/firstsection-topimage.png" alt="cabin-by-the-lake"></div>
-            <div><img src="images/firstsection-bottomimage.png" alt="mountain-valley"></div>
         </div>
     </div>
+
 
     <!-- HOW IT WORKS -->
     <div class="how-it-works">
 
     </div>
 
+
     <!-- SECOND SECTION -->
     <div class="section-2">
         <div class="section-2_upper-half">
-            <!-- <div class="section-2_upper-background">
-                <img src="images/secondsection-upperbackground.png" alt="house-with-pool">
-            </div> -->
             <div class="card">
-                <div class="card-text">
-                    <p class="card-country">Spain</p>
-                    <p class="card-location uppercase">Grand Spain Madrid</p>
-                    <p class="card-text">But I must explain to you how all this mistaken idea of account to 
+                <div class="card-text-container">
+                    <p class="card-country jsans-font">Spain</p>
+                    <p class="card-location uppercase jsans-font">Grand Spain Madrid</p>
+                    <p class="card-text jsans-font">But I must explain to you how all this mistaken idea of account to 
                         denouncing pleasure and praising pain was account  born and I account will give you 
                         a complete account of the system</p>
                 </div>
-                <div class="booking-btn blue-btn uppercase">Book Now</div>
+                <a class="booking-btn blue-btn uppercase aleo-font" href="#Booking">Book Now</a>
             </div>
         </div>
         <div class="section-2_lower-half">
-            <!-- <div class="section-2_lower-background">
-                <img src="images/secondsection-lowerbackground.png" alt="seaside-cliffs">
-            </div> -->
             <div class="card">
-                <div class="card-text">
-                    <p class="card-country">Spain</p>
-                    <p class="card-location uppercase">Grand Spain Madrid</p>
-                    <p class="card-text">But I must explain to you how all this mistaken idea of account to 
+                <div class="card-text-container">
+                    <p class="card-country jsans-font">Spain</p>
+                    <p class="card-location uppercase jsans-font">Grand Spain Madrid</p>
+                    <p class="card-text jsans-font">But I must explain to you how all this mistaken idea of account to 
                         denouncing pleasure and praising pain was account  born and I account will give you 
                         a complete account of the system</p>
                 </div>
-                <div class="booking-btn blue-btn uppercase">Book Now</div>
+                <a class="booking-btn blue-btn uppercase aleo-font" href="#Booking">Book Now</a>
             </div>
         </div>
     </div>
 
+
     <!-- TESTIMONIAL SECTION -->
     <div class="testimonial-section">
-        <!-- <div class="testimonial-background">
-            <img src="images/testimonial-background.png" alt="explorer">
-        </div> -->
         <div class="testimonial-heading">
-            <h2 class="heading">What Our Tourists Say</h2>
+            <h2 class="heading aleo-font">What Our Tourists Say</h2>
         </div>
         <div class="testimonial-card">
             <img src="images/testimonial-image.png" alt="explorer">
             <div class="testimonial-text_container">
-                <h2 class="testimonial-name uppercase">Sam Summon</h2>
-                <p class="testinmonial-text"><span class="quote-icon">####</span>But I must explain to you how all 
+                <h2 class="testimonial-name uppercase jsans-font">Sam Summon</h2>
+                <p class="testinmonial-text jsans-font"><span><i class="fa-solid fa-quote-left"></i></span>But I must explain to you how all 
                     this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to 
                     you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  
                     born and I account will give you a complete account of the system was account  born and I 
@@ -130,19 +126,20 @@
         </div>
     </div>
 
+
     <!-- FOOTER SECTION -->
      <div class="footer-section">
         <div class="footer-text">
             <h2 class="footer-title uppercase jsans-font">Bhromaon</h2>
-            <p class="subtitle aleo-font"></p>
+            <p class="subtitle aleo-font">Safe Travel Anywhere</p>
         </div>
         <div class="social-media">
             <ul>
-                <li><i class="fa-brands fa-facebook-f"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
-                <li><i class="fa-brands fa-linkedin-in"></i></li>
-                <li><i class="fa-brands fa-youtube"></i></li>
-                <li><i class="fa-brands fa-pinterest"></i></li>
+                <li><a href="#facebook"><i class="brand-white fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#twitter"><i class="brand-white fa-brands fa-twitter"></i></li></a>
+                <li><a href="#linkedin"><i class="brand-blue fa-brands fa-linkedin-in"></i></li></a>
+                <li><a href="#youtube"><i class="brand-white fa-brands fa-youtube"></i></li></a>
+                <li><a href="#pinterest"><i class="brand-white fa-brands fa-pinterest"></i></li></a>
             </ul>
         </div>
      </div>
