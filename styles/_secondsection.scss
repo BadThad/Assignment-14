@@ -1,0 +1,49 @@
+.section-2_upper-half {
+    padding: 10%;
+    background-image: url(/images/secondsection-upperbackground.png);
+}
+
+.section-2_lower-half {
+    padding: 10%;
+    background-image: url(/images/secondsection-lowerbackground.png);
+}
+
+.section-2_lower-half .card {
+    margin-left: auto;
+}
+
+.card {
+    background-color: rgba( 35, 35, 35, 0.9);
+    width: 37%;
+    padding: 2% 3%;
+}
+
+.card-text-container p {
+    color: #E8E8E8;
+}
+
+.card-country {
+    font-size: 20px;
+}
+
+.card-location {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.booking-btn {
+    padding: 5% 10%;
+    background: linear-gradient(45deg, #496BFE 40%, #5474FD 40%);
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+}
+
+.booking-btn:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
