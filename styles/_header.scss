@@ -1,0 +1,53 @@
+.header-section {
+    background-image: url(/images/header-background.png);
+    padding: 15% 0%;
+}
+
+.title-subtitle-container {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 48px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    font-size: 22px;
+    letter-spacing: 7px;
+    font-weight: 400; 
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.scroll-down_container {
+    margin-top: 5%;
+    text-align: center;
+    color: #FFFFFF;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(20%)
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
